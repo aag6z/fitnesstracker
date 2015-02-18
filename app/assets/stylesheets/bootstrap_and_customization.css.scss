@@ -1,0 +1,52 @@
+//Sass Variables
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+
+$font-family-sans-serif:                'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$body-bg: #ecf0f1;
+$panel-bg: #FAEBD7;
+
+@import "bootstrap-sprockets";
+@import 'bootstrap';
+
+//= depend_on_asset "bootstrap/glyphicons-halflings-regular.eot"
+//= depend_on_asset "bootstrap/glyphicons-halflings-regular.svg"
+//= depend_on_asset "bootstrap/glyphicons-halflings-regular.ttf"
+//= depend_on_asset "bootstrap/glyphicons-halflings-regular.woff"
+
+.center {
+   text-align: center;  
+}
+
+#itemsh{
+  text-align: center;
+   font-size: 40px;
+}
+
+#itemsWell {
+   background: #FAEBD7
+}
+
+
+#itemsHeader {
+  text-align: center;
+  font-size: 35px;
+  
+}
+
+
+#items {
+  text-align: center;
+  font-size: 30px;
+  
+}
+
+#del{
+  text-align: right;
+  padding-top: 10px;
+}
+
+#eachItemPanel{
+  
+  background:#d0d7d9;
+  
+}
